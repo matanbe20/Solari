@@ -250,7 +250,6 @@ body{
     width: 12px;
     background-color: #91918e;
     cursor: pointer;
-    opacity: 0;
     transition: 0.3s all;
 }
 
