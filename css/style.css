@@ -1,5 +1,7 @@
 /*Planes*/
-
+body{
+    background: #000;
+}
 .mercury {
     width: 350px;
     height: 350px;
@@ -193,7 +195,7 @@
 }
 
 .brighter {
-    border-color: rgba(122, 122, 122, 1);
+    border-color: rgb(150, 150, 150);
 }
 
 .curved-text {
