@@ -226,7 +226,8 @@ body{
 }
 
 .info:hover .info-x {
-    opacity: 1;
+    background-color: #ea4f4c;
+
 }
 
 .img-cont {
@@ -247,7 +248,7 @@ body{
     border-radius: 50%;
     height: 12px;
     width: 12px;
-    background-color: #ea4f4c;
+    background-color: #91918e;
     cursor: pointer;
     opacity: 0;
     transition: 0.3s all;
