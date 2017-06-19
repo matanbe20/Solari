@@ -4,12 +4,12 @@
 
 $(".all-relative-class").hover(function () {
     $(this).children(".curved-text").stop().fadeIn(250);
-    $(this).addClass("brighter");
+    $(this).addClass("brighter-border");
     var planetHovered = $(this).attr("class").split(" ")[0];
     $(".planet-heading").stop().html(planetHovered + "'s Orbit").fadeIn(250);
 }, function () {
     $(this).children(".curved-text").stop().fadeOut(250);
-    $(this).removeClass("brighter");
+    $(this).removeClass("brighter-border");
     $(".planet-heading").stop().fadeOut(250);
 }).on('click', function () {
     var planetPressed = $(this).attr("class").split(" ")[0];
